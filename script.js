@@ -18,7 +18,7 @@ function submitHandle(event) {
 		h3value+="?name="+name
 	}
 	else if(!name && year){
-		h3value+="&year="+year;
+		h3value+="?year="+year;
 	}
 	h3.textContent=h3value;
 }
